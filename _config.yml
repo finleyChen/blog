@@ -1,0 +1,8 @@
+markdown: rdiscount
+
+permalink: /:year/:month/:title/
+
+url: http://chentc.info/blog.html
+author: Finley Chen
+pygments: true
+
