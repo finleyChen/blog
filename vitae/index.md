@@ -43,4 +43,3 @@ Fanglin Chen, Xiang Fei, Xinmin Chen, Guohua Liu, ARHCI: use input and output of
 
 Fanglin Chen, A Multimodal Electronic Knee Joint System：Modeling and Implementation, Nankai University Bachelor Dissertation, 2012
 
-1. Yihui Xie and Xiaoyue Cheng, 2008. _animation: A Package for Statistical 
