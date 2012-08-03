@@ -1,7 +1,6 @@
 ---
 
-title: Statistics, R, Graphics and Fun
-
+title: Ubiquitous Computing, Eye-tracking and Mobile Sensing
 layout: page
 
 isIndex: true
