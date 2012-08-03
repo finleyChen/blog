@@ -3,7 +3,7 @@ layout: page
 title: Curriculumn Vitae
 ---
 
-# Fanglin Chen
+# Yihui Xie
 
 ## Contact Information
 
