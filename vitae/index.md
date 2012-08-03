@@ -1,53 +1,37 @@
----
+﻿---
 layout: page
 title: Curriculumn Vitae
 ---
 
-# Yihui Xie
+# Fanglin Chen
 
-## Contact Information
 
-2215 Snedecor Hall, Department of Statistics, Iowa State University, Ames, 50011, IA  
-Email: xie@yihui.name; Tel: (+1) 515-203-2465 Homepage: <http://yihui.name/>
+
+## Contact InformationSudikoff 108, Department of Computer Science, Dartmouth College, New Hampshire, 03755-3510 USA
+
+  
+Email: chenfanglintc@gmail.com; Tel: (+1) 515-203-2465 Homepage: <http://chentc.info/>
 
 ## Research Interest
 
-Statistical computing and graphics / data visualization
-
-## Education Background
+Ubiquitous computing / Mobile sensing / Eye Tracking / Neuroscience## Education Background
 	
-- 2009 ~ Present, PhD student in the Department of Statistics, Iowa State University
-- 2006 ~ 2009, Master of statistics, School of Statistics, Renmin University of China
-- 2002 ~ 2006, Bachelor of Economics, School of Statistics, Renmin University of China
+- 2012 ~ Present, PhD student in the Department of Computer Science, Dartmouth College
 
-## Honors & Awards
+- 2008 ~ 2012, Bachelor of Communication Engineering, College of Information Technical Science, Nankai University
 
-- Honorable Mention Prize, Applications of R in Business [Competition](http://bit.ly/wP1Dii), 2012
-- [Vince Sposito](http://www.stat.iastate.edu/grad/finances/scholarships.html) Statistical Computing Award, 2011 (Department of Statistics, Iowa State University)
-- John M. Chambers Statistical Software [Award](http://stat-computing.org/awards/jmc/winners.html), ASA, 2009 (for the R package [animation](http://cran.r-project.org/package=animation))
-- Excellent graduate scholarship, Renmin University of China, 2007
-- Successful Participant, Mathematical Contest in Modeling (America), 2006 ([paper](https://github.com/downloads/yihui/yihui.github.com/MCM-2006-paper-Yihui-Xie.pdf); [certificate](http://i.imgur.com/c3soC.jpg "Certificate of Mathematical Contest in Modelling (America)"))
-- Excellent graduate of Renmin University of China, 2006
-- "Excellent Worker in Student Media" of Renmin University of China, 2006 (for hosting the website of statistics discussions in <http://cos.name>)
-- Scholarship for outstanding learning, Renmin University of China, 2005
+
 
 ## Publications
 
-### In Chinese
-	
-1. Yanyun Zhao, Nailin Feng, Yuncheng Zhao, Yihui Xie, Ning Xiao, 2008, Research on the National Quality Competitiveness of China, _Statistical Research_, 25(3), 12-19
-1. Yihui Xie, 2008. On the Applications of Statistical Graphics in Data Analysis, _Statistical Review_, Bo Zhang (ed)
-1. Yihui Xie, 2008. Bootstrap Methods: Developments and Frontiers, _Statistics & Information Forum_, 89, 90-96.
-1. Yihui Xie, 2007. The Application of the Classification and Regression Tree Based on the Package rpart in R, _Statistics & Information Forum_, 86, 67-70.
-1. Yihui Xie, 2007. Series in International Competitiveness: How Weak is the Financial System of China?, _China Statistics_, 7, 35.
-1. Yanyun Zhao, Yihui Xie, 2006. Unbalanced growth in top 100 industrial enterprises in China: market expanding outgoes business managing, _Talents_, 9, 84.
-1. Yanyun Zhao, Yihui Xie, 2005. Who is the champion of growth among top 1000 industrial enterprises in China: analysis on the capability of market expanding and aggregate efficiency, _Talents_, 9, 72-73.
+### Poster
+	Fanglin Chen, Xiang Fei, Xinmin Chen, Guohua Liu, ARHCI: use input and output of eyes to interact with things, UbiComp, 2011
 
-### In English
 
-1. Yihui Xie, 2012, _animation: An R Package for Creating Animations and Demonstrating Statistical Methods_, Journal of Statistical Software (accepted)
-1. Yihui Xie and Xiaoyue Cheng, 2008. _animation: A Package for Statistical Animations_, R News, 8(**2**). URL: <http://www.r-project.org/doc/Rnews/Rnews_2008-1.pdf>
-1. Yihui Xie, 2007. _Visualization of Data and Statistical Models Using R_, Proceedings of the 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([paper](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf))
+
+### Dissertation
+
+Fanglin Chen, A Multimodal Electronic Knee Joint System：Modeling and Implementation, Nankai University Bachelor Dissertation, 20121. Yihui Xie, 2007. _Visualization of Data and Statistical Models Using R_, Proceedings of the 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([paper](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf))
 
 Besides, I published several articles in the [Capital of Statistics](http://cos.name/) in Chinese.
 
