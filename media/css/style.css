@@ -97,6 +97,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 .ui-grid-24 {width:950px;}
 .ui-grid-25 {width:990px;}
 .ui-grid-right {margin-right:0;}
+.ui-grid-left {margin-left:0;}
 .ui-grid-bottom {margin-bottom:0;}
 /** violet-post **/
 .violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 520px; }
