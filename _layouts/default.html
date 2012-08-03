@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta name="author" content="{{ site.author }}" />
+
+    <title>{{ page.title }} | {{ site.author }}</title>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+
+    <link rel="stylesheet" href="http://chentc.info/blog/media/css/style.css">
+
+    <link rel="stylesheet" href="http://chentc.info/blog/media/css/highlight.css">
+    <script type="text/javascript" src="http://chentc.info/blog/media/js/jquery-1.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+      <div id="main" role="main">
+
+        <header>
+
+        <h1>{{ page.title }}</h1>
+
+        </header>
+
+        <nav>
+
+        <span><a title="Home Page" class="" href="{{ site.url }}/">home</a></span>
+
+        <span><a title="GuestBook" class="" href="{{ site.url}}/guestbook.html">guestbook</a></span>
+
+        <span><a title="CV" class="" href="{{ site.url }}/cv.html">CV</a></span>
+
+      	<span><a title="categories" class="" href="{{ site.url }}/categories.html">categories</a></span>
+
+        </nav>
+
+{% if(page.isIndex) %}
+<div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="300" height="900" id="passing" > <param name="movie" value="http://www.douban.com/doushow/50934726/collection_latest__8_2_small_nologo_noself/doushow.swf" /> <param name="quality" value="high" /> <param name="scale" value="noscale"/> <param name="align" value="tl"/> <param name="wmode" value="transparent"/> <embed src="http://www.douban.com/doushow/50934726/collection_latest__8_2_small_nologo_noself/doushow.swf" wmode="transparent" quality="high" width="300" height="900" name="passing" scale="noscale" align="tl" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </object>
+</div>
+{% endif %}
+        <article class="content">
+
+        {{ content }}
+
+        </article>
+
+      </div>
+
+    </div>
+   
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+
+      _gaq.push(['_setAccount', 'UA-1988641-2']);
+
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+        var s = document.getElementsByTagName('script')[0]; 	s.parentNode.insertBefore(ga, s);
+
+      })();
+
+</script>
+
+  </body>
+
+</html>
