@@ -162,3 +162,33 @@ embed,object,iframe{display:block;margin:4px auto;}
     background: #fff;
     position: relative;
 }
+
+/** violet-aside **/
+.violet-aside-post {
+    margin-top: 15px; margin-bottom: 20px; height: auto;
+}
+.violet-aside-post li {
+    margin: 10px 0 0;
+}
+.violet-aside-post .v-aside-li { border-bottom: 1px dotted #d8d8d8; }
+.violet-aside-post .v-aside-li a { font-family: verdana, \9ED1\4F53, sans-serif; word-wrap:break-word; word-break:break-all; }
+.violet-aside-post .v-aside-li a:hover { text-decoration: none;  }
+.violet-aside-post .v-date { text-align: right; }
+
+/** fn **/
+.fn-clear:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.fn-clear { zoom:1; /* for IE6 IE7 */ }
+body .fn-hide { display:none; }
+.fn-left,.fn-right { display:inline; }
+.fn-left { float:left; }
+.fn-right { float:right; }
+
+
+.content-cnt{
+    margin: 0 auto;
+    width: 990px;
+    height: auto;
+}
+
+.violet-journal { background: none repeat scroll 0 0 #FFFFFF; margin: 0; padding: 50px 20px 50px 40px; }
+.v-section-tit { padding: 0px 5px 0 0; color: #888; font-size: 18px; line-height: 30px; font-weight: 500; font-family: "Times New Roman",Times,serif; border-bottom: 1px solid #e8e8e8; }
