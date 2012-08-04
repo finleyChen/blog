@@ -51,9 +51,16 @@
     {% endif %}
 </head>
 
+
 <body>
 
-<div class= "ui-grid-25">
+<style>
+    .indent-1 {float: left;}
+    .indent-1 section {width: 70%; float: left;}
+</style>
+
+<section class= "ui-grid-25 ident-1">
+<!-- Section 1 --> 
 <section class="ui-grid-15 ui-grid-left">
 <div id="container">
       <div id="main" role="main">
@@ -75,9 +82,11 @@
       	</div>
     </div>
 </section>
+
 <section>
 {% include aside.html %}
-</section>		
+</section>	
+</section>	
 </div>
 
 </div>
