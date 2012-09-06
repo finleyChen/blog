@@ -1,7 +1,6 @@
 ---
 title: Categories
-layout: page
-isCategory: true
+layout: no_aside
 ---
 
 <div id='tag_cloud'>

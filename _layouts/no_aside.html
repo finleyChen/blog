@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="{{ site.author }}" />
+        <title>{{ page.title }} | {{ site.author }}</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+            <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+            <link rel="stylesheet" href="media/css/style.css">
+                <link rel="stylesheet" href="media/css/highlight.css">
+                    {% if(page.isIndex) %}
+                    <link rel="stylesheet" href="media/css/jquery-ui-1.8.18.custom.css" type="text/css" />
+                    {% endif %}
+                    <script type="text/javascript" src="media/js/jquery-1.7.1.min.js"></script>
+                    {% if(page.isIndex) %}
+                    <script src="media/js/jquery-ui-1.8.18.custom.js"></script>
+                    <script type="text/JavaScript">
+                        $(function() {
+                          $("#J_search").focus(function() {
+                                               $(this).addClass("v-input-large");
+                                               });
+                          $("#J_search").blur(function() {
+                                              if($(this).hasClass("v-input-large")) {
+                                              $(this).removeClass("v-input-large");
+                                              }
+                                              });
+                          $.ajax({
+                                 url: "search.xml",
+                                 dataType: "xml",
+                                 success: function( xmlResponse ) {
+                                 var data = $( "article", xmlResponse ).map(function() {
+                                                                            return {
+                                                                            value: $( "title", this ).text() + ", " +
+                                                                            ( $.trim( $( "date", this ).text() ) ),
+                                                                            desc: $("description", this).text(),
+                                                                            url: $("url", this).text()
+                                                                            };
+                                                                            }).get();
+                                 
+                                 $( "#J_search" ).autocomplete({
+                                                               source: data,
+                                                               minLength: 0,
+                                                               select: function( event, ui ) {
+                                                               window.location.href = ui.item.url;
+                                                               }
+                                                               });
+                                 }
+                                 });
+                          });
+                        </script>
+                    {% endif %}
+    </head>
+    
+    
+    <body>
+        
+        <section class="content fn-clear">
+            <div class="content-cnt">
+                <div class="ui-grid-25 ui-grid-right content-top">	
+                                <div id="main" role="main">
+                                    <nav>
+                                        <span><a title="Home Page" class="" href="{{ site.url }}/">home</a></span>
+                                        <span><a title="GuestBook" class="" href="{{ site.url}}/guestbook.html">guestbook</a></span>
+                                        <span><a title="CV" class="" href="{{ site.url }}/cv.html">CV</a></span>
+                                        <span><a title="categories" class="" href="{{ site.url }}/categories.html">categories</a></span>
+                                    </nav>
+                                    <article class="content">
+                                        {{ content }}
+                                    </article>
+      							</div>
+                </div>
+            </div>
+        </section><!-- //content -->
+        
+        <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            
+            _gaq.push(['_setAccount', 'UA-1988641-2']);
+            
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             
+             var s = document.getElementsByTagName('script')[0]; 	s.parentNode.insertBefore(ga, s);
+             
+             })();
+            
+            </script>
+        
+    </body>
+    
+</html>
