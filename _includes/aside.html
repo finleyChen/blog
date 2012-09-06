@@ -1,5 +1,7 @@
 <aside class="ui-grid-5 ui-grid-right">
+    {% if(!(page.isIndex)) %}
     {% include face.html %}
+    {% endif %}
     {% include follow.html %}
 	{% if(page.isIndex) %}
 				<div>
