@@ -9,12 +9,18 @@ title: Curriculumn Vitae
 
 # Fanglin Chen
 
+I am now pursuing a Ph.D. degree in Computer Science, and my advisor is Professor [Andrew Campbell](http://www.cs.dartmouth.edu/~campbell/).
 
 ## *Contact Information*
 
 
-Sudikoff 108, Dartmouth College, New Hampshire, 03755-3510 USA
-Email: chenfanglintc@gmail.com; Tel: , Homepage: <http://chentc.info/>
+Address: Sudikoff 220, Dartmouth College, New Hampshire, 03755-3510
+
+Email: chentc@cs.dartmouth.edu;
+ 
+Tel: 603-277-0980
+
+Homepage: <http://chentc.info/>
 
 
 ## *Research Interests*
