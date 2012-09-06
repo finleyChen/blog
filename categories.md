@@ -1,6 +1,6 @@
 ---
 title: Categories
-layout: no_aside
+layout: page_without_aside
 ---
 
 <div id='tag_cloud'>

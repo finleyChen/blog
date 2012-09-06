@@ -1,5 +1,5 @@
 ---
-layout: no_aside
+layout: page_without_aside
 title: Guestbook
 comments: yes
 
