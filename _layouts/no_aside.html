@@ -56,10 +56,16 @@
         
         <section class="content fn-clear">
             <div class="content-cnt">
-                <div class="ui-grid-25 ui-grid-right content-top">
+                <div class="ui-grid-25 ui-grid-right content-top">	
                     <div class="ui-grid-23 violet-post">
                             <section class="ui-grid-16 violet-journal"> 
                                 <div id="main" role="main">
+                                    <header>
+                                        <h1>{{ page.title }}</h1>
+										{% if(page.isIndex) %}
+                                        <h5><input id="J_search" placeholder="Simple Search"/>
+                                        {% endif %}
+                                    </header>
                                     <nav>
                                         <span><a title="Home Page" class="" href="{{ site.url }}/">home</a></span>
                                         <span><a title="GuestBook" class="" href="{{ site.url}}/guestbook.html">guestbook</a></span>
@@ -70,14 +76,15 @@
                                         {{ content }}
                                     </article>
       							</div>
-                            </section>
+                            </section><!-- //Journal -->
+                            {% if(page.isIndex) %}
+                            {% include aside.html %}
+                            {% endif %}
                     </div>
                 </div>
             </div>
         </section><!-- //content -->
-        {% if(page.isIndex) %}
-            {% include aside.html %}
-        {% endif %}
+        
         <script type="text/javascript">
             
             var _gaq = _gaq || [];
