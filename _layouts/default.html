@@ -78,7 +78,13 @@
         						</article>
       							</div>
            			 </section><!-- //Journal -->
+                    {% if(page.isIndex) %}
             		{% include aside.html %}
+                    {% endif %}
+                    {% if(page.isCV) %}
+            		{% include aside.html %}
+                    {% endif %}
+                    
             	</div>
             </div>
         </div>
