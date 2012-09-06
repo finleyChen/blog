@@ -75,7 +75,9 @@
                 </div>
             </div>
         </section><!-- //content -->
-        
+        {% if(page.isIndex) %}
+            {% include aside.html %}
+        {% endif %}
         <script type="text/javascript">
             
             var _gaq = _gaq || [];
