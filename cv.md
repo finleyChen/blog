@@ -4,6 +4,7 @@ layout: page
 
 title: Curriculumn Vitae
 
+isCV: true
 ---
 
 
