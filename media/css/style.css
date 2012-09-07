@@ -70,7 +70,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 .violet-attent-det ul li a.v-rss:hover { background-position: -99px -4px; }
 /** violet-about **/
 .violet-about { margin-bottom: 20px; height: auto;  padding-left: 13px;}
-.violet-about-det { padding: 20px 0 10px 0; border-bottom: 1px solid #d8d8d8;  }
+.violet-about-det { padding-left:0 px; border-bottom: 1px solid #d8d8d8;  }
 .violet-about-det p img { background: #fff; padding: 2px 2px; }
 .violet-about-det p { padding-bottom: 10px; font-size: 13px; line-height: 18px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; }
 .violet-about-det strong { font-family: "Times New Roman",Times,serif; font-weight: 700; padding: 0 2px; font-size: 14px; line-height: 18px; }
