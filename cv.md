@@ -21,9 +21,6 @@ Email: chentc@cs.dartmouth.edu;
  
 Tel: 603-277-0980
 
-Homepage: <http://chentc.info/>
-
-
 ## *Research Interests*
 
 
