@@ -2,7 +2,7 @@
 
 layout: page
 
-title: Curriculumn Vitae
+title: Curriculum Vitae
 
 isCV: true
 ---

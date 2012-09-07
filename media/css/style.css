@@ -54,8 +54,8 @@ embed,object,iframe{display:block;margin:4px auto;}
 .violet-attent { margin-left: 15px;}
 .violet-attent-det { padding: 10px 0; }
 .violet-attent-det ul li { float: left; margin-right: 5px; }
-.violet-attent-det ul li a { display: block; width: 20px; height: 20px; text-indent: -9999em; overflow: hidden; background-image: url(../icon.png); background-repeat: no-repeat; border-radius: 3px 3px;  padding: 0;}
-.violet-attent-det ul li a:hover { background-image: url(../icon.png); background-repeat: no-repeat;}
+.violet-attent-det ul li a { display: block; width: 20px; height: 20px; text-indent: -9999em; overflow: hidden; background-image: url(http://chentc.info/blog/icon.png); background-repeat: no-repeat; border-radius: 3px 3px;  padding: 0;}
+.violet-attent-det ul li a:hover { background-image: url(http://chentc.info/blog/icon.png); background-repeat: no-repeat;}
 .violet-attent-det ul li a.v-github { background-position: -4px -28px; }
 .violet-attent-det ul li a.v-weibo { background-position: -23px -28px; }
 .violet-attent-det ul li a.v-twitter { background-position: -42px -28px; }
